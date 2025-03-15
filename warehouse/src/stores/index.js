@@ -5,7 +5,7 @@ import { computed, ref } from "vue";
 export const useUserStore = defineStore("basemessage", {
   state: () => {
     //相当于data 防止数据污染
-    return { username: EAO };
+    return { username: "EAO" };
   },
   getters: {
     //相当于computed 计算属性
