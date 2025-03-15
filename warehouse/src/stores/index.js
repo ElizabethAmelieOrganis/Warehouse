@@ -4,6 +4,7 @@ import { computed, ref } from "vue";
 //options store（选项式）
 export const useUserStore = defineStore("basemessage", {
   state: () => {
+    //箭头函数可以自动识别数据类型
     //相当于data 防止数据污染
     return { username: "EAO" };
   },
